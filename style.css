@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+}
+#gameZone{
+    position: relative;
+    width: 800px;
+    height: 700px;
+    background-color: rgb(14, 238, 133);
+    box-shadow: 0px 0px 7px 0px;
+    margin: auto;
+}
+#scorePanel{
+    height: 100px;
+    background-color:rgb(58, 54, 54) ;
+}
+#scoreBox{
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
+#playerBar{
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    background-color: blue;
+    bottom: 2px;
+    left: 50%;
+    border-radius:   0 0 10px 10px;
+    transform: translate(-50%,0%);
+}
+#cpuBar{
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    background-color: red;
+    border-radius:  10px 10px 0 0;
+    top: 102px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#ball{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50% 50%;
+    top:400px;
+    left: 400px;
+    transform: translate(-50%,-50%);
+}
